@@ -18,3 +18,12 @@ Lecture 02:
   - single-layer-perceptron-diabetes dataset-finding-decision boundary-dynamic
 
 Lecture 03:
+
+
+A hyperplane in \( \mathbb{R}^d \) is represented by the equation:
+
+\[
+\mathbf{w} \cdot \mathbf{x} + b = 0
+\]
+
+where \( \mathbf{w} \) is the normal vector, and \( b \) is the threshold.
