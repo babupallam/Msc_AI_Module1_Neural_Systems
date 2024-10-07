@@ -1,3 +1,7 @@
+This repository has been created based on the course meterials provided and used while doing Msc AI from De MontFort University, Leicester.
+The research papers reviewed are based on the research work of the professor who cordinated the module, Dr. David Elizondo: https://scholar.google.co.in/citations?hl=en&user=8y5ln3QAAAAJ
+
+
 Lecture 01:
   - what is NN?
   - structure of NN
