@@ -19,4 +19,11 @@ Lecture 02:
 
 Lecture 03:
 
+- demonstration of perceptron based on mathematics..
+- some reseach oriented studies and observations
 
+Lecture 04:
+
+- Feed forward neural network
+- design issues and challenges
+- 
