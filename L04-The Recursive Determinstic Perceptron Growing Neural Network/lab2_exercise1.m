@@ -61,9 +61,19 @@ disp(simT_after);
 figure(1); % Ensure figure 1 is active
 plotpc(net.IW{1}, net.b{1}); % Plot the perceptron's decision boundary
 
-hold off; % Release the hold on the plot
 
 %%
-net = train(net, P, T);
+
+% Now extend the training to 200 epochs
+net.trainParam.epochs = 200; % Set maximum number of training epochs to 200
+[net, tr] = train(net, P, T);
+
+% Plot the updated decision boundary after additional training
+figure(2); % Create a new figure for the updated decision boundary
+plotpv(P, T);
+hold on; % Keep the plot open for the updated decision boundary
+plotpc(net.IW{1}, net.b{1}); % Plot the updated decision boundary
+title('Updated Decision Boundary after Training for 200 Epochs');
+hold off; % Release the hold on the plot
 
 %%
