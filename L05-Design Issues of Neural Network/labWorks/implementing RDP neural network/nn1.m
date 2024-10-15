@@ -4,10 +4,10 @@ close all;
 
 % Define a problem with a set of nineteen 2-element input vectors P
 % and the corresponding nineteen 1-element targets T.
-P = [2 1 2 5 7 2 3 6 1 2 5 4 6 5 6 7 8 7 ;
-     2 3 3 3 3 4 4 4 5 5 5 6 6 7 6 6 7 7];
+P = [2 1 2 5 7 2 3 6 1 2 5 4 5 6 7 8 7 ;
+     2 3 3 3 3 4 4 4 5 5 5 6 7 6 6 7 7];
 
-T = [0 0 0 1 1 0 0 1 0 0 1 1 1 1 0 0 0 0];
+T = [0 0 0 1 1 0 0 1 0 0 1 1 1 0 0 0 0];
 
 % Plot the initial data set (Non-Linear Separable (NLS) data)
 figure(1);
@@ -15,10 +15,10 @@ plotpv(P, T);
 %% Linearyly Seperable (LS)
 
 % Now redefine P and T for a Linearly Separable (LS) subset of the NLS data
-P = [2 1 2 5 7 2 3 6 1 2 5 4 6 5 6 7 8 7;
-     2 3 3 3 3 4 4 4 5 5 5 6 6 7 6 6 7 7];
+P = [2 1 2 5 7 2 3 6 1 2 5 4 5 6 7 8 7;
+     2 3 3 3 3 4 4 4 5 5 5 6 7 6 6 7 7];
 
-T = [0 0 0 1 1 0 0 1 0 0 1 1 1 1 1 1 1 1];
+T = [0 0 0 1 1 0 0 1 0 0 1 1 1 1 1 1 1];
 
 % Plot the updated LS data set
 figure(2);
@@ -58,4 +58,56 @@ plotpc(net.iw{1, 1}, net.b{1});
 
 %%
 P = [P; simT_after ] ;
-T = [ 0 0 0 1 1 0 0 1 0 0 1 1 1 1 0 0 0 0 ] ;
+T = [ 0 0 0 1 1 0 0 1 0 0 1 1 1 0 0 0 0 ] ;
+
+%% 
+
+% 3D classification
+
+minMaxVal = minmax(P) ;
+figure(3) ;
+plotpv (P,T) ;
+
+%%
+
+% Create a Perceptron network
+net = newp(minMaxVal, 1);
+
+% Simulate the network's response to input data P
+simT = sim(net, P);
+
+% Set the number of training epochs
+net.trainParam.epochs = 100;
+
+% Train the network
+net = train(net, P, T);
+
+% Simulate the network's response to input data P after training
+simT = sim(net, P);
+
+%% 3D plot
+
+figure(3)
+plotpc(net.iw{1,1},net.b{1})
+
+%%
+
+% Create a Perceptron network
+net = newp(minMaxVal, 1);
+
+% Simulate the network's response to input data P
+simT = sim(net, P);
+
+% Set the number of training epochs
+net.trainParam.epochs = 1000;
+
+% Train the network
+net = train(net, P, T);
+
+% Simulate the network's response to input data P after training
+simT = sim(net, P);
+
+%% 3D plot
+
+figure(3)
+plotpc(net.iw{1,1},net.b{1})
