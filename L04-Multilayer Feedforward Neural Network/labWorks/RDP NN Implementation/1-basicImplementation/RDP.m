@@ -14,13 +14,10 @@ P = [ 2 1 2 5 7 2 3 6 1 2 5 4 5 6 7 8 7;
 % It contains binary values (0 or 1) representing class labels for each point.
 T = [ 0 0 0 1 1 0 0 1 0 0 1 1 1 0 0 0 0 ];
 
-% Plot the dataset using a standard MATLAB function 'plotpv'
-% 'plotpv' is used to visualize 2D classification data. The data points will be
-% plotted in different colors based on their target class in T.
 figure(1);   % Open a new figure window for the plot
 plotpv(P,T); % Plot the input vectors P and their corresponding targets T
 
-% Now, the same input vectors P are redefined (which in this case is identical 
+% The same input vectors P are redefined (which in this case is identical 
 % to the previous P), but the target values T are modified for a second scenario.
 
 P = [ 2 1 2 5 7 2 3 6 1 2 5 4 5 6 7 8 7 ;

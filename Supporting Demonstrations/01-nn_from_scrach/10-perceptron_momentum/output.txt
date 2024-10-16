@@ -1,0 +1,111 @@
+>> perceptron_momentum
+
+Epoch 1
+Input: [0 0], Target: 0, Predicted: 1, Error: -1
+Updated Weights (With Momentum): [0.2599, 0.8001], Updated Bias: 0.3314
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Updated Weights (With Momentum): [0.2599, 0.7001], Updated Bias: 0.1414
+Input: [1 0], Target: 0, Predicted: 1, Error: -1
+Updated Weights (With Momentum): [0.1599, 0.6101], Updated Bias: -0.1296
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights (With Momentum): [0.0699, 0.5291], Updated Bias: -0.3735
+
+Epoch 2
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [-0.0111, 0.4562], Updated Bias: -0.5930
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [-0.0840, 0.3906], Updated Bias: -0.7906
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [-0.1496, 0.3315], Updated Bias: -0.9684
+Input: [1 1], Target: 1, Predicted: 0, Error: 1
+Updated Weights (With Momentum): [-0.1087, 0.3784], Updated Bias: -1.0284
+
+Epoch 3
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [-0.0718, 0.4205], Updated Bias: -1.0824
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [-0.0387, 0.4585], Updated Bias: -1.1310
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [-0.0088, 0.4926], Updated Bias: -1.1748
+Input: [1 1], Target: 1, Predicted: 0, Error: 1
+Updated Weights (With Momentum): [0.1181, 0.6234], Updated Bias: -1.1142
+
+Epoch 4
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [0.2322, 0.7411], Updated Bias: -1.0596
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [0.3350, 0.8470], Updated Bias: -1.0105
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [0.4275, 0.9423], Updated Bias: -0.9663
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights (With Momentum): [0.5107, 1.0280], Updated Bias: -0.9265
+
+Epoch 5
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [0.5856, 1.1053], Updated Bias: -0.8907
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Updated Weights (With Momentum): [0.6531, 1.0747], Updated Bias: -0.9585
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [0.7137, 1.0473], Updated Bias: -1.0195
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights (With Momentum): [0.7684, 1.0225], Updated Bias: -1.0744
+
+Epoch 6
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [0.8175, 1.0003], Updated Bias: -1.1239
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [0.8617, 0.9803], Updated Bias: -1.1683
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [0.9016, 0.9623], Updated Bias: -1.2084
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights (With Momentum): [0.9374, 0.9460], Updated Bias: -1.2444
+
+Epoch 7
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [0.9696, 0.9314], Updated Bias: -1.2768
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [0.9987, 0.9183], Updated Bias: -1.3060
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [1.0248, 0.9065], Updated Bias: -1.3322
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights (With Momentum): [1.0483, 0.8958], Updated Bias: -1.3559
+
+Epoch 8
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [1.0694, 0.8863], Updated Bias: -1.3771
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [1.0885, 0.8776], Updated Bias: -1.3963
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [1.1056, 0.8699], Updated Bias: -1.4135
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights (With Momentum): [1.1211, 0.8629], Updated Bias: -1.4290
+
+Epoch 9
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [1.1349, 0.8566], Updated Bias: -1.4430
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [1.1474, 0.8510], Updated Bias: -1.4555
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [1.1587, 0.8459], Updated Bias: -1.4668
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights (With Momentum): [1.1688, 0.8413], Updated Bias: -1.4770
+
+Epoch 10
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [1.1779, 0.8372], Updated Bias: -1.4862
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [1.1861, 0.8335], Updated Bias: -1.4944
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights (With Momentum): [1.1935, 0.8301], Updated Bias: -1.5018
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights (With Momentum): [1.2001, 0.8271], Updated Bias: -1.5085
+
+Final Trained Weights: [1.2001, 0.8271]
+Final Trained Bias: -1.5085
+
+Testing the trained perceptron with momentum:
+Test Input: [0 0], Predicted: 0, Expected: 0
+Test Input: [0 1], Predicted: 0, Expected: 0
+Test Input: [1 0], Predicted: 0, Expected: 0
+Test Input: [1 1], Predicted: 1, Expected: 1
+>> 

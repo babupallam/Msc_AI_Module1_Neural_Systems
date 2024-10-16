@@ -1,0 +1,175 @@
+>> perceptron_basic_single_input
+Initial Weights and Bias:
+    0.1419    0.4218
+
+    0.9157
+
+Epoch 1:
+  Sample 1: Updated Weights = 0.14189     0.42176, Updated Bias = 0.81574
+  Sample 2: Updated Weights = 0.14189     0.32176, Updated Bias = 0.71574
+  Sample 3: Updated Weights = 0.041886     0.32176, Updated Bias = 0.61574
+  Sample 4: Updated Weights = 0.041886     0.32176, Updated Bias = 0.61574
+Epoch 2:
+  Sample 1: Updated Weights = 0.041886     0.32176, Updated Bias = 0.51574
+  Sample 2: Updated Weights = 0.041886     0.22176, Updated Bias = 0.41574
+  Sample 3: Updated Weights = -0.058114     0.22176, Updated Bias = 0.31574
+  Sample 4: Updated Weights = -0.058114     0.22176, Updated Bias = 0.31574
+Epoch 3:
+  Sample 1: Updated Weights = -0.058114     0.22176, Updated Bias = 0.21574
+  Sample 2: Updated Weights = -0.058114     0.12176, Updated Bias = 0.11574
+  Sample 3: Updated Weights = -0.15811     0.12176, Updated Bias = 0.015736
+  Sample 4: Updated Weights = -0.058114     0.22176, Updated Bias = 0.11574
+Epoch 4:
+  Sample 1: Updated Weights = -0.058114     0.22176, Updated Bias = 0.015736
+  Sample 2: Updated Weights = -0.058114     0.12176, Updated Bias = -0.084264
+  Sample 3: Updated Weights = -0.058114     0.12176, Updated Bias = -0.084264
+  Sample 4: Updated Weights = 0.041886     0.22176, Updated Bias = 0.015736
+Epoch 5:
+  Sample 1: Updated Weights = 0.041886     0.22176, Updated Bias = -0.084264
+  Sample 2: Updated Weights = 0.041886     0.12176, Updated Bias = -0.18426
+  Sample 3: Updated Weights = 0.041886     0.12176, Updated Bias = -0.18426
+  Sample 4: Updated Weights = 0.14189     0.22176, Updated Bias = -0.084264
+Epoch 6:
+  Sample 1: Updated Weights = 0.14189     0.22176, Updated Bias = -0.084264
+  Sample 2: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+  Sample 3: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+  Sample 4: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+Epoch 7:
+  Sample 1: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+  Sample 2: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+  Sample 3: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+  Sample 4: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+Epoch 8:
+  Sample 1: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+  Sample 2: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+  Sample 3: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+  Sample 4: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+Epoch 9:
+  Sample 1: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+  Sample 2: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+  Sample 3: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+  Sample 4: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+Epoch 10:
+  Sample 1: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+  Sample 2: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+  Sample 3: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+  Sample 4: Updated Weights = 0.14189     0.12176, Updated Bias = -0.18426
+Final Trained Weights and Bias after training:
+    0.1419    0.1218
+
+   -0.1843
+
+Testing the trained perceptron on new data:
+  Test Input: 1  1 => Predicted: 1, Expected: 1
+  Test Input: 0  0 => Predicted: 0, Expected: 0
+  Test Input: 1  0 => Predicted: 0, Expected: 0
+  Test Input: 0  1 => Predicted: 0, Expected: 0
+Initial Weights and Bias:
+    0.7922    0.9595    0.6557
+
+    0.0357
+
+Epoch 1:
+  Sample 1: Updated Weights = 0.79221     0.95949     0.65574, Updated Bias = -0.064288
+  Sample 2: Updated Weights = 0.79221     0.95949     0.55574, Updated Bias = -0.16429
+  Sample 3: Updated Weights = 0.79221     0.85949     0.55574, Updated Bias = -0.26429
+  Sample 4: Updated Weights = 0.79221     0.75949     0.45574, Updated Bias = -0.36429
+  Sample 5: Updated Weights = 0.69221     0.75949     0.45574, Updated Bias = -0.46429
+  Sample 6: Updated Weights = 0.59221     0.75949     0.35574, Updated Bias = -0.56429
+  Sample 7: Updated Weights = 0.49221     0.65949     0.35574, Updated Bias = -0.66429
+  Sample 8: Updated Weights = 0.49221     0.65949     0.35574, Updated Bias = -0.66429
+Epoch 2:
+  Sample 1: Updated Weights = 0.49221     0.65949     0.35574, Updated Bias = -0.66429
+  Sample 2: Updated Weights = 0.49221     0.65949     0.35574, Updated Bias = -0.66429
+  Sample 3: Updated Weights = 0.49221     0.65949     0.35574, Updated Bias = -0.66429
+  Sample 4: Updated Weights = 0.49221     0.55949     0.25574, Updated Bias = -0.76429
+  Sample 5: Updated Weights = 0.49221     0.55949     0.25574, Updated Bias = -0.76429
+  Sample 6: Updated Weights = 0.49221     0.55949     0.25574, Updated Bias = -0.76429
+  Sample 7: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 8: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+Epoch 3:
+  Sample 1: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 2: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 3: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 4: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 5: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 6: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 7: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 8: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+Epoch 4:
+  Sample 1: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 2: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 3: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 4: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 5: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 6: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 7: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 8: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+Epoch 5:
+  Sample 1: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 2: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 3: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 4: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 5: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 6: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 7: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 8: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+Epoch 6:
+  Sample 1: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 2: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 3: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 4: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 5: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 6: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 7: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 8: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+Epoch 7:
+  Sample 1: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 2: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 3: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 4: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 5: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 6: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 7: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 8: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+Epoch 8:
+  Sample 1: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 2: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 3: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 4: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 5: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 6: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 7: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 8: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+Epoch 9:
+  Sample 1: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 2: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 3: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 4: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 5: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 6: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 7: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 8: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+Epoch 10:
+  Sample 1: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 2: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 3: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 4: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 5: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 6: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 7: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+  Sample 8: Updated Weights = 0.39221     0.45949     0.25574, Updated Bias = -0.86429
+Final Trained Weights and Bias after training:
+    0.3922    0.4595    0.2557
+
+   -0.8643
+
+Testing the trained perceptron on new data:
+  Test Input: 0  0  0 => Predicted: 0, Expected: 0
+  Test Input: 0  0  1 => Predicted: 0, Expected: 0
+  Test Input: 0  1  0 => Predicted: 0, Expected: 0
+  Test Input: 0  1  1 => Predicted: 0, Expected: 0
+  Test Input: 1  0  0 => Predicted: 0, Expected: 0
+  Test Input: 1  0  1 => Predicted: 0, Expected: 0
+  Test Input: 1  1  0 => Predicted: 0, Expected: 0
+  Test Input: 1  1  1 => Predicted: 1, Expected: 1

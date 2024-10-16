@@ -1,0 +1,82 @@
+>> perceptron_batch_training
+
+Epoch 1
+Input: [0 0], Target: 0, Predicted: 1, Error: -1
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Input: [1 0], Target: 0, Predicted: 1, Error: -1
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights after Epoch 1: [-0.0954, 0.6749], Updated Bias: 0.5173
+
+Epoch 2
+Input: [0 0], Target: 0, Predicted: 1, Error: -1
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Input: [1 0], Target: 0, Predicted: 1, Error: -1
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights after Epoch 2: [-0.1954, 0.5749], Updated Bias: 0.2173
+
+Epoch 3
+Input: [0 0], Target: 0, Predicted: 1, Error: -1
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Input: [1 0], Target: 0, Predicted: 1, Error: -1
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights after Epoch 3: [-0.2954, 0.4749], Updated Bias: -0.0827
+
+Epoch 4
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights after Epoch 4: [-0.2954, 0.3749], Updated Bias: -0.1827
+
+Epoch 5
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Input: [1 1], Target: 1, Predicted: 0, Error: 1
+Updated Weights after Epoch 5: [-0.1954, 0.3749], Updated Bias: -0.1827
+
+Epoch 6
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Input: [1 1], Target: 1, Predicted: 0, Error: 1
+Updated Weights after Epoch 6: [-0.0954, 0.3749], Updated Bias: -0.1827
+
+Epoch 7
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights after Epoch 7: [-0.0954, 0.2749], Updated Bias: -0.2827
+
+Epoch 8
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Input: [1 1], Target: 1, Predicted: 0, Error: 1
+Updated Weights after Epoch 8: [0.0046, 0.3749], Updated Bias: -0.1827
+
+Epoch 9
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights after Epoch 9: [0.0046, 0.2749], Updated Bias: -0.2827
+
+Epoch 10
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Input: [1 1], Target: 1, Predicted: 0, Error: 1
+Updated Weights after Epoch 10: [0.1046, 0.3749], Updated Bias: -0.1827
+
+Training complete.
+Final Trained Weights: [0.1046, 0.3749]
+Final Trained Bias: -0.1827
+
+Testing the trained perceptron:
+Test Input: [0 0], Predicted: 0, Expected: 0
+Test Input: [0 1], Predicted: 1, Expected: 0
+Test Input: [1 0], Predicted: 0, Expected: 0
+Test Input: [1 1], Predicted: 1, Expected: 1
+>> 

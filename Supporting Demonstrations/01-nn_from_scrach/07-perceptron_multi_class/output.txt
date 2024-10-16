@@ -1,0 +1,544 @@
+>> perceptron_multi_class
+
+Epoch 1
+Input: [1 0], Target Class: 1, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.2543, 0.9293], Updated Bias: 0.2511
+Input: [1 0], Target Class: 1, Predicted Class: 2, Classifier: 2, Error: -1
+Updated Weights for Class 2: [0.7143, 0.3500], Updated Bias: 0.5160
+Input: [1 0], Target Class: 1, Predicted Class: 2, Classifier: 3, Error: -1
+Updated Weights for Class 3: [0.1435, 0.1966], Updated Bias: 0.3733
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 1, Error: -1
+Updated Weights for Class 1: [0.2543, 0.8293], Updated Bias: 0.1511
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [0.7143, 0.3500], Updated Bias: 0.5160
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 3, Error: -1
+Updated Weights for Class 3: [0.1435, 0.0966], Updated Bias: 0.2733
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 1, Error: -1
+Updated Weights for Class 1: [0.2543, 0.8293], Updated Bias: 0.0511
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 2, Error: -1
+Updated Weights for Class 2: [0.7143, 0.3500], Updated Bias: 0.4160
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 3, Error: 0
+Updated Weights for Class 3: [0.1435, 0.0966], Updated Bias: 0.2733
+Input: [1 1], Target Class: 1, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.2543, 0.8293], Updated Bias: 0.0511
+Input: [1 1], Target Class: 1, Predicted Class: 2, Classifier: 2, Error: -1
+Updated Weights for Class 2: [0.6143, 0.2500], Updated Bias: 0.3160
+Input: [1 1], Target Class: 1, Predicted Class: 2, Classifier: 3, Error: -1
+Updated Weights for Class 3: [0.0435, -0.0034], Updated Bias: 0.1733
+
+Epoch 2
+Input: [1 0], Target Class: 1, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.2543, 0.8293], Updated Bias: 0.0511
+Input: [1 0], Target Class: 1, Predicted Class: 2, Classifier: 2, Error: -1
+Updated Weights for Class 2: [0.5143, 0.2500], Updated Bias: 0.2160
+Input: [1 0], Target Class: 1, Predicted Class: 2, Classifier: 3, Error: -1
+Updated Weights for Class 3: [-0.0565, -0.0034], Updated Bias: 0.0733
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 1, Error: -1
+Updated Weights for Class 1: [0.2543, 0.7293], Updated Bias: -0.0489
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [0.5143, 0.2500], Updated Bias: 0.2160
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 3, Error: -1
+Updated Weights for Class 3: [-0.0565, -0.1034], Updated Bias: -0.0267
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.2543, 0.7293], Updated Bias: -0.0489
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 2, Error: -1
+Updated Weights for Class 2: [0.5143, 0.2500], Updated Bias: 0.1160
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 3, Error: 1
+Updated Weights for Class 3: [-0.0565, -0.1034], Updated Bias: 0.0733
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.2543, 0.7293], Updated Bias: -0.0489
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: -1
+Updated Weights for Class 2: [0.4143, 0.1500], Updated Bias: 0.0160
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.0565, -0.1034], Updated Bias: 0.0733
+
+Epoch 3
+Input: [1 0], Target Class: 1, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.2543, 0.7293], Updated Bias: -0.0489
+Input: [1 0], Target Class: 1, Predicted Class: 2, Classifier: 2, Error: -1
+Updated Weights for Class 2: [0.3143, 0.1500], Updated Bias: -0.0840
+Input: [1 0], Target Class: 1, Predicted Class: 2, Classifier: 3, Error: -1
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: -0.0267
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 1, Error: -1
+Updated Weights for Class 1: [0.2543, 0.6293], Updated Bias: -0.1489
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [0.3143, 0.1500], Updated Bias: -0.0840
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: -0.0267
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.2543, 0.6293], Updated Bias: -0.1489
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 2, Error: 0
+Updated Weights for Class 2: [0.3143, 0.1500], Updated Bias: -0.0840
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 3, Error: 1
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.2543, 0.6293], Updated Bias: -0.1489
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: -1
+Updated Weights for Class 2: [0.2143, 0.0500], Updated Bias: -0.1840
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+
+Epoch 4
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.2543, 0.6293], Updated Bias: -0.1489
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: -1
+Updated Weights for Class 2: [0.1143, 0.0500], Updated Bias: -0.2840
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 1, Error: -1
+Updated Weights for Class 1: [0.2543, 0.5293], Updated Bias: -0.2489
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 2, Error: 1
+Updated Weights for Class 2: [0.1143, 0.1500], Updated Bias: -0.1840
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.2543, 0.5293], Updated Bias: -0.2489
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 2, Error: 0
+Updated Weights for Class 2: [0.1143, 0.1500], Updated Bias: -0.1840
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.2543, 0.5293], Updated Bias: -0.2489
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: -1
+Updated Weights for Class 2: [0.0143, 0.0500], Updated Bias: -0.2840
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+
+Epoch 5
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.2543, 0.5293], Updated Bias: -0.2489
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [0.0143, 0.0500], Updated Bias: -0.2840
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 1, Error: -1
+Updated Weights for Class 1: [0.2543, 0.4293], Updated Bias: -0.3489
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 2, Error: 1
+Updated Weights for Class 2: [0.0143, 0.1500], Updated Bias: -0.1840
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.2543, 0.4293], Updated Bias: -0.3489
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 2, Error: 0
+Updated Weights for Class 2: [0.0143, 0.1500], Updated Bias: -0.1840
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.2543, 0.4293], Updated Bias: -0.3489
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [0.0143, 0.1500], Updated Bias: -0.1840
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+
+Epoch 6
+Input: [1 0], Target Class: 1, Predicted Class: 3, Classifier: 1, Error: 1
+Updated Weights for Class 1: [0.3543, 0.4293], Updated Bias: -0.2489
+Input: [1 0], Target Class: 1, Predicted Class: 3, Classifier: 2, Error: 0
+Updated Weights for Class 2: [0.0143, 0.1500], Updated Bias: -0.1840
+Input: [1 0], Target Class: 1, Predicted Class: 3, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 1, Error: -1
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 2, Error: 1
+Updated Weights for Class 2: [0.0143, 0.2500], Updated Bias: -0.0840
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 2, Error: 0
+Updated Weights for Class 2: [0.0143, 0.2500], Updated Bias: -0.0840
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: -1
+Updated Weights for Class 2: [-0.0857, 0.1500], Updated Bias: -0.1840
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+
+Epoch 7
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.0857, 0.1500], Updated Bias: -0.1840
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 2, Error: 1
+Updated Weights for Class 2: [-0.0857, 0.2500], Updated Bias: -0.0840
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.0857, 0.2500], Updated Bias: -0.0840
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: -1
+Updated Weights for Class 2: [-0.1857, 0.1500], Updated Bias: -0.1840
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+
+Epoch 8
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.1857, 0.1500], Updated Bias: -0.1840
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 2, Error: 1
+Updated Weights for Class 2: [-0.1857, 0.2500], Updated Bias: -0.0840
+Input: [0 1], Target Class: 2, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.1857, 0.2500], Updated Bias: -0.0840
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.1857, 0.2500], Updated Bias: -0.0840
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+
+Epoch 9
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.1857, 0.2500], Updated Bias: -0.0840
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.1857, 0.2500], Updated Bias: -0.0840
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.1857, 0.2500], Updated Bias: -0.0840
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.1857, 0.2500], Updated Bias: -0.0840
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+
+Epoch 10
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.1857, 0.2500], Updated Bias: -0.0840
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.1857, 0.2500], Updated Bias: -0.0840
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.1857, 0.2500], Updated Bias: -0.0840
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.3543, 0.3293], Updated Bias: -0.3489
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.1857, 0.2500], Updated Bias: -0.0840
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.1565, -0.1034], Updated Bias: 0.0733
+
+Testing the trained multi-class perceptron:
+Test Input: [1 0], Predicted Class: 1, Expected Class: 1
+Test Input: [0 1], Predicted Class: 2, Expected Class: 2
+Test Input: [0 0], Predicted Class: 3, Expected Class: 3
+Test Input: [1 1], Predicted Class: 1, Expected Class: 1
+>> perceptron_multi_class
+
+Epoch 1
+K>> size(inputs, 1)
+
+ans =
+
+     4
+
+>> perceptron_multi_class
+
+Epoch 1
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.5308], Updated Bias: 0.1299
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: -1
+Updated Weights for Class 2: [-0.0241, 0.7792], Updated Bias: 0.4688
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: -1
+Updated Weights for Class 3: [-0.0460, 0.9340], Updated Bias: 0.3694
+Input: [0 1], Target Class: 2, Predicted Class: 3, Classifier: 1, Error: -1
+Updated Weights for Class 1: [0.5678, 0.4308], Updated Bias: 0.0299
+Input: [0 1], Target Class: 2, Predicted Class: 3, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.0241, 0.7792], Updated Bias: 0.4688
+Input: [0 1], Target Class: 2, Predicted Class: 3, Classifier: 3, Error: -1
+Updated Weights for Class 3: [-0.0460, 0.8340], Updated Bias: 0.2694
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 1, Error: -1
+Updated Weights for Class 1: [0.5678, 0.4308], Updated Bias: -0.0701
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 2, Error: -1
+Updated Weights for Class 2: [-0.0241, 0.7792], Updated Bias: 0.3688
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.0460, 0.8340], Updated Bias: 0.2694
+Input: [1 1], Target Class: 1, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.4308], Updated Bias: -0.0701
+Input: [1 1], Target Class: 1, Predicted Class: 2, Classifier: 2, Error: -1
+Updated Weights for Class 2: [-0.1241, 0.6792], Updated Bias: 0.2688
+Input: [1 1], Target Class: 1, Predicted Class: 2, Classifier: 3, Error: -1
+Updated Weights for Class 3: [-0.1460, 0.7340], Updated Bias: 0.1694
+
+Epoch 2
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.4308], Updated Bias: -0.0701
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: -1
+Updated Weights for Class 2: [-0.2241, 0.6792], Updated Bias: 0.1688
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: -1
+Updated Weights for Class 3: [-0.2460, 0.7340], Updated Bias: 0.0694
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 1, Error: -1
+Updated Weights for Class 1: [0.5678, 0.3308], Updated Bias: -0.1701
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.2241, 0.6792], Updated Bias: 0.1688
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 3, Error: -1
+Updated Weights for Class 3: [-0.2460, 0.6340], Updated Bias: -0.0306
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.3308], Updated Bias: -0.1701
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 2, Error: -1
+Updated Weights for Class 2: [-0.2241, 0.6792], Updated Bias: 0.0688
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 3, Error: 1
+Updated Weights for Class 3: [-0.2460, 0.6340], Updated Bias: 0.0694
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.3308], Updated Bias: -0.1701
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: -1
+Updated Weights for Class 2: [-0.3241, 0.5792], Updated Bias: -0.0312
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: -1
+Updated Weights for Class 3: [-0.3460, 0.5340], Updated Bias: -0.0306
+
+Epoch 3
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.3308], Updated Bias: -0.1701
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.3241, 0.5792], Updated Bias: -0.0312
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.3460, 0.5340], Updated Bias: -0.0306
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 1, Error: -1
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.3241, 0.5792], Updated Bias: -0.0312
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 3, Error: -1
+Updated Weights for Class 3: [-0.3460, 0.4340], Updated Bias: -0.1306
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.3241, 0.5792], Updated Bias: -0.0312
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 3, Error: 1
+Updated Weights for Class 3: [-0.3460, 0.4340], Updated Bias: -0.0306
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: -1
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: -1
+Updated Weights for Class 3: [-0.4460, 0.3340], Updated Bias: -0.1306
+
+Epoch 4
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.4460, 0.3340], Updated Bias: -0.1306
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 3, Error: -1
+Updated Weights for Class 3: [-0.4460, 0.2340], Updated Bias: -0.2306
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 3, Error: 1
+Updated Weights for Class 3: [-0.4460, 0.2340], Updated Bias: -0.1306
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.4460, 0.2340], Updated Bias: -0.1306
+
+Epoch 5
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.4460, 0.2340], Updated Bias: -0.1306
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 3, Error: -1
+Updated Weights for Class 3: [-0.4460, 0.1340], Updated Bias: -0.2306
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 3, Error: 1
+Updated Weights for Class 3: [-0.4460, 0.1340], Updated Bias: -0.1306
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.4460, 0.1340], Updated Bias: -0.1306
+
+Epoch 6
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.4460, 0.1340], Updated Bias: -0.1306
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 3, Error: -1
+Updated Weights for Class 3: [-0.4460, 0.0340], Updated Bias: -0.2306
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [0 0], Target Class: 3, Predicted Class: 2, Classifier: 3, Error: 1
+Updated Weights for Class 3: [-0.4460, 0.0340], Updated Bias: -0.1306
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.4460, 0.0340], Updated Bias: -0.1306
+
+Epoch 7
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.4460, 0.0340], Updated Bias: -0.1306
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.4460, 0.0340], Updated Bias: -0.1306
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 3, Error: 1
+Updated Weights for Class 3: [-0.4460, 0.0340], Updated Bias: -0.0306
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.4460, 0.0340], Updated Bias: -0.0306
+
+Epoch 8
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.4460, 0.0340], Updated Bias: -0.0306
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 3, Error: -1
+Updated Weights for Class 3: [-0.4460, -0.0660], Updated Bias: -0.1306
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 3, Error: 1
+Updated Weights for Class 3: [-0.4460, -0.0660], Updated Bias: -0.0306
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.4460, -0.0660], Updated Bias: -0.0306
+
+Epoch 9
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.4460, -0.0660], Updated Bias: -0.0306
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.4460, -0.0660], Updated Bias: -0.0306
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 3, Error: 1
+Updated Weights for Class 3: [-0.4460, -0.0660], Updated Bias: 0.0694
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.4460, -0.0660], Updated Bias: 0.0694
+
+Epoch 10
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [1 0], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.4460, -0.0660], Updated Bias: 0.0694
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [0 1], Target Class: 2, Predicted Class: 2, Classifier: 3, Error: -1
+Updated Weights for Class 3: [-0.4460, -0.1660], Updated Bias: -0.0306
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [0 0], Target Class: 3, Predicted Class: 3, Classifier: 3, Error: 1
+Updated Weights for Class 3: [-0.4460, -0.1660], Updated Bias: 0.0694
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 1, Error: 0
+Updated Weights for Class 1: [0.5678, 0.2308], Updated Bias: -0.2701
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 2, Error: 0
+Updated Weights for Class 2: [-0.4241, 0.4792], Updated Bias: -0.1312
+Input: [1 1], Target Class: 1, Predicted Class: 1, Classifier: 3, Error: 0
+Updated Weights for Class 3: [-0.4460, -0.1660], Updated Bias: 0.0694
+
+Testing the trained multi-class perceptron:
+Test Input: [1 0], Predicted Class: 1, Expected Class: 1
+Test Input: [0 1], Predicted Class: 2, Expected Class: 2
+Test Input: [0 0], Predicted Class: 3, Expected Class: 3
+Test Input: [1 1], Predicted Class: 1, Expected Class: 1
+>> 

@@ -1,0 +1,47 @@
+
+Comparison of Training Perceptron WITHOUT Bias vs. WITH Bias
+
+The comparison between the two models, one trained WITHOUT a bias and the other WITH a bias, highlights the importance of bias in learning.
+
+---
+
+Training Perceptron WITHOUT Bias:
+
+- Initial Issues: The perceptron without bias struggles to learn properly in the beginning. This is especially evident in the early epochs when it keeps predicting incorrectly for certain inputs, like [1 0] and [0 1].
+  
+- Oscillation of Weights: Notice how the weights fluctuate with minimal improvement across epochs. For example, the weights repeatedly get updated but the model continues to struggle to consistently predict 0 for inputs like [1 0] and [0 1].
+
+- Stagnation: In Epoch 6 onward, the model's updates begin to oscillate without any major improvements. The error continues to occur because the model cannot separate the classes well without the bias to shift the decision boundary.
+
+- Final Weights: The final trained weights WITHOUT bias settle at [0.1472, 0.0386]. These values are not enough to distinguish between the inputs [1 0] and [0 1] consistently.
+
+---
+
+Training Perceptron WITH Bias:
+
+- Early Corrective Steps: In contrast to the model without bias, the perceptron WITH bias makes more substantial changes in the first few epochs. The bias term helps the model adjust more easily, enabling it to achieve better predictions for most inputs early on.
+
+- Consistent Learning: The presence of the bias allows the model to make fewer incorrect predictions and quickly corrects its weights after each mistake. For example, after Epoch 3, the weights stabilize and the errors decrease significantly.
+
+- Convergence: By Epoch 7, the weights and bias settle into consistent values, resulting in correct predictions for all inputs. The bias helps shift the decision boundary to fit the AND gate problem, making the model more flexible in learning.
+
+- Final Weights and Bias: The final trained weights with bias are [0.1493, 0.0575], with a bias of -0.1593. These values allow the perceptron to accurately model the AND gate, including the crucial input [1 1] where the expected output is 1.
+
+---
+
+Model Testing Results:
+
+- Without Bias: The model trained without bias would struggle to correctly classify all the inputs consistently, especially cases where one of the inputs is 1 (e.g., [1 0] and [0 1]). It keeps misclassifying them, leading to continued errors.
+
+- With Bias: After training, the model with bias correctly predicts all the outputs of the AND gate. This includes the case of [1 1] which results in a predicted output of 1, and the other inputs which are correctly classified as 0.
+
+---
+
+Final Observations:
+
+1. Faster Convergence: The model with bias converges much faster compared to the one without bias. The bias term gives the model more flexibility, allowing it to adjust the decision boundary.
+
+2. Better Performance: The perceptron with bias is able to separate the input space more effectively and make correct predictions across all inputs. This is especially important for cases like the AND gate, where a bias helps the perceptron learn the threshold needed to output 1 only when both inputs are 1.
+
+3. Without Bias Limitations: The model without bias has limitations because it cannot effectively adjust its decision boundary to fit the AND gate problem. This results in prolonged errors and an inability to fully converge.
+

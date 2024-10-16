@@ -1,0 +1,40 @@
+
+The output shows the training process of a perceptron with batch updates applied after each epoch. The task is to simulate the behavior of an AND gate, where the expected outputs for the inputs are:
+
+- Input: [0 0] -> Output: 0
+- Input: [0 1] -> Output: 0
+- Input: [1 0] -> Output: 0
+- Input: [1 1] -> Output: 1
+
+Key Observations:
+
+1. Epochs 1-3:
+   - In the first three epochs, the perceptron struggles to make correct predictions, especially for the inputs [0 0], [0 1], and [1 0]. For these cases, the predicted output is consistently 1, while the target is 0, resulting in an error of -1.
+   - The weight and bias updates are cumulative for all inputs and applied after each epoch, which gradually adjusts the weights and bias.
+   - The weights decrease in value as the error for incorrect predictions accumulates, helping the perceptron adjust towards the correct decision boundary.
+
+2. Epoch 4:
+   - At this point, the perceptron correctly predicts the output for input [0 0], with no error. However, it still struggles with input [0 1], continuing to predict 1 instead of 0, resulting in an error.
+   - Weights and bias continue to adjust, but slowly, as batch training applies updates only after all inputs are processed.
+
+3. Epochs 5-7:
+   - The perceptron starts to converge. For input [0 0] and [1 0], the perceptron makes correct predictions (outputs 0 as expected). However, it still struggles with the input [0 1], where it predicts 1 instead of 0.
+   - The weights and bias are stabilizing, as indicated by the small adjustments after each epoch.
+
+4. Epochs 8-10:
+   - By epoch 8, the perceptron makes mostly correct predictions, except for the input [1 1], where it predicts 0 instead of 1, indicating that further adjustment is needed for this case.
+   - At the end of epoch 10, the perceptron successfully makes all the correct predictions, except for [0 1], where it still predicts 1 instead of 0.
+   - The final trained weights are [0.1046, 0.3749], and the bias is -0.1827.
+
+Testing Phase:
+- During testing, the perceptron predicts correctly for the inputs [0 0], [1 0], and [1 1]. However, for the input [0 1], the perceptron predicts 1 when the expected output is 0, indicating that the model hasn’t fully learned the correct decision boundary for this input.
+
+Conclusion:
+
+- The perceptron has mostly converged, as seen in the later epochs, where it correctly predicts the outputs for the AND gate, except for the input [0 1]. This lingering error suggests that the model may need further fine-tuning or that the learning rate could be adjusted to improve performance.
+  
+- Batch training helped the perceptron make more stable updates, but it converged more slowly compared to stochastic training. This is expected since weight and bias updates are applied only after processing all the training samples in an epoch.
+
+- The final weights and bias values are relatively small, indicating that the model has adjusted them to closely approximate the decision boundary for the AND gate problem.
+
+- Next steps might include experimenting with different learning rates or adding more epochs to allow the model to fine-tune its weights further and fully correct the prediction for [0 1].

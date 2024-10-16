@@ -1,0 +1,112 @@
+>> perceptron_learning_rate
+
+Epoch 1
+Input: [0 0], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.0318, 0.2769], Updated Bias: 0.0362
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.0318, 0.2669], Updated Bias: 0.0262
+Input: [1 0], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.0218, 0.2669], Updated Bias: 0.0162
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.0218, 0.2669], Updated Bias: 0.0162
+
+Epoch 2
+Input: [0 0], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.0218, 0.2669], Updated Bias: 0.0062
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.0218, 0.2569], Updated Bias: -0.0038
+Input: [1 0], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.0118, 0.2569], Updated Bias: -0.0138
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.0118, 0.2569], Updated Bias: -0.0138
+
+Epoch 3
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.0118, 0.2569], Updated Bias: -0.0138
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.0118, 0.2469], Updated Bias: -0.0238
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.0118, 0.2469], Updated Bias: -0.0238
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.0118, 0.2469], Updated Bias: -0.0238
+
+Epoch 4
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.0118, 0.2469], Updated Bias: -0.0238
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.0118, 0.2369], Updated Bias: -0.0338
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.0118, 0.2369], Updated Bias: -0.0338
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.0118, 0.2369], Updated Bias: -0.0338
+
+Epoch 5
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.0118, 0.2369], Updated Bias: -0.0338
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.0118, 0.2269], Updated Bias: -0.0438
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.0118, 0.2269], Updated Bias: -0.0438
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.0118, 0.2269], Updated Bias: -0.0438
+
+Epoch 6
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.0118, 0.2269], Updated Bias: -0.0438
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.0118, 0.2169], Updated Bias: -0.0538
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.0118, 0.2169], Updated Bias: -0.0538
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.0118, 0.2169], Updated Bias: -0.0538
+
+Epoch 7
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.0118, 0.2169], Updated Bias: -0.0538
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.0118, 0.2069], Updated Bias: -0.0638
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.0118, 0.2069], Updated Bias: -0.0638
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.0118, 0.2069], Updated Bias: -0.0638
+
+Epoch 8
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.0118, 0.2069], Updated Bias: -0.0638
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.0118, 0.1969], Updated Bias: -0.0738
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.0118, 0.1969], Updated Bias: -0.0738
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.0118, 0.1969], Updated Bias: -0.0738
+
+Epoch 9
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.0118, 0.1969], Updated Bias: -0.0738
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.0118, 0.1869], Updated Bias: -0.0838
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.0118, 0.1869], Updated Bias: -0.0838
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.0118, 0.1869], Updated Bias: -0.0838
+
+Epoch 10
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.0118, 0.1869], Updated Bias: -0.0838
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.0118, 0.1769], Updated Bias: -0.0938
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.0118, 0.1769], Updated Bias: -0.0938
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.0118, 0.1769], Updated Bias: -0.0938
+
+Training complete.
+Final Trained Weights: [0.0118, 0.1769]
+Final Trained Bias: -0.0938
+
+Testing the trained perceptron:
+Test Input: [0 0], Predicted: 0, Expected: 0
+Test Input: [0 1], Predicted: 1, Expected: 0
+Test Input: [1 0], Predicted: 0, Expected: 0
+Test Input: [1 1], Predicted: 1, Expected: 1
+>> 

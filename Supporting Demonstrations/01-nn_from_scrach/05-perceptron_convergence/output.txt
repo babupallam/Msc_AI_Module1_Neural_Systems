@@ -1,0 +1,121 @@
+
+Epoch 1
+Input: [0 0], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.5853, 0.2238], Updated Bias: 0.6513
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.5853, 0.1238], Updated Bias: 0.5513
+Input: [1 0], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.4853, 0.1238], Updated Bias: 0.4513
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.4853, 0.1238], Updated Bias: 0.4513
+Total Error for Epoch 1: 3.0000
+
+Epoch 2
+Input: [0 0], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.4853, 0.1238], Updated Bias: 0.3513
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.4853, 0.0238], Updated Bias: 0.2513
+Input: [1 0], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.3853, 0.0238], Updated Bias: 0.1513
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.3853, 0.0238], Updated Bias: 0.1513
+Total Error for Epoch 2: 3.0000
+
+Epoch 3
+Input: [0 0], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.3853, 0.0238], Updated Bias: 0.0513
+Input: [0 1], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.3853, -0.0762], Updated Bias: -0.0487
+Input: [1 0], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.2853, -0.0762], Updated Bias: -0.1487
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.2853, -0.0762], Updated Bias: -0.1487
+Total Error for Epoch 3: 3.0000
+
+Epoch 4
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.2853, -0.0762], Updated Bias: -0.1487
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.2853, -0.0762], Updated Bias: -0.1487
+Input: [1 0], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.1853, -0.0762], Updated Bias: -0.2487
+Input: [1 1], Target: 1, Predicted: 0, Error: 1
+Updated Weights: [0.2853, 0.0238], Updated Bias: -0.1487
+Total Error for Epoch 4: 2.0000
+
+Epoch 5
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.2853, 0.0238], Updated Bias: -0.1487
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.2853, 0.0238], Updated Bias: -0.1487
+Input: [1 0], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.1853, 0.0238], Updated Bias: -0.2487
+Input: [1 1], Target: 1, Predicted: 0, Error: 1
+Updated Weights: [0.2853, 0.1238], Updated Bias: -0.1487
+Total Error for Epoch 5: 2.0000
+
+Epoch 6
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.2853, 0.1238], Updated Bias: -0.1487
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.2853, 0.1238], Updated Bias: -0.1487
+Input: [1 0], Target: 0, Predicted: 1, Error: -1
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Total Error for Epoch 6: 1.0000
+
+Epoch 7
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Total Error for Epoch 7: 0.0000
+
+Epoch 8
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Total Error for Epoch 8: 0.0000
+
+Epoch 9
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Total Error for Epoch 9: 0.0000
+
+Epoch 10
+Input: [0 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Input: [0 1], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Input: [1 0], Target: 0, Predicted: 0, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Input: [1 1], Target: 1, Predicted: 1, Error: 0
+Updated Weights: [0.1853, 0.1238], Updated Bias: -0.2487
+Total Error for Epoch 10: 0.0000
+
+Training complete.
+Final Trained Weights: [0.1853, 0.1238]
+Final Trained Bias: -0.2487
+
+Testing the trained perceptron:
+Test Input: [0 0], Predicted: 0, Expected: 0
+Test Input: [0 1], Predicted: 0, Expected: 0
+Test Input: [1 0], Predicted: 0, Expected: 0
+Test Input: [1 1], Predicted: 1, Expected: 1
+>> 
