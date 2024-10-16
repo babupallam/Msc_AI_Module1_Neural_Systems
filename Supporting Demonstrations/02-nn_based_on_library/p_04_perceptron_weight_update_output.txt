@@ -1,0 +1,9 @@
+>> p_04_perceptron_weight_update
+Initial weights and bias:
+Updated weights and bias after training:
+     1     1
+
+    -1
+
+Outputs after training:
+     0     1     1     1

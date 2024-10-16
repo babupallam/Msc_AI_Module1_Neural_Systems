@@ -1,0 +1,7 @@
+>> p_09_perceptron_custom_activation
+Default activation function:
+hardlim
+Updated activation function:
+purelin
+Outputs with custom linear activation (purelin):
+         499          -1        -501       -1001
