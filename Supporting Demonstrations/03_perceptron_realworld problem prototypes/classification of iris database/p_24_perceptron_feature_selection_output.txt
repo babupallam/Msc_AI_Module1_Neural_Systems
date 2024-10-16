@@ -1,0 +1,15 @@
+>> p_24_perceptron_feature_selection
+First few selected feature vectors (Petal Length, Petal Width):
+    1.4000    1.4000    1.3000    1.5000    1.4000
+    0.2000    0.2000    0.2000    0.2000    0.2000
+
+First few normalized selected feature vectors:
+    0.7071    0.7071    0.7071    0.7071    0.7071
+   -0.7071   -0.7071   -0.7071   -0.7071   -0.7071
+
+Perceptron training completed with selected features.
+First few test outputs (predicted vs actual):
+     0     0     0     0     0
+     1     1     1     1     1
+
+Perceptron accuracy with selected features (Petal Length and Petal Width): 73.3333%

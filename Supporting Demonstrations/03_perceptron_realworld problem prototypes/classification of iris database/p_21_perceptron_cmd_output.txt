@@ -1,0 +1,30 @@
+>> p_21_perceptron_iris_classification_basic
+First few input features:
+    5.1000    4.9000    4.7000    4.6000    5.0000
+    3.5000    3.0000    3.2000    3.1000    3.6000
+    1.4000    1.4000    1.3000    1.5000    1.4000
+    0.2000    0.2000    0.2000    0.2000    0.2000
+
+First few target labels (numeric):
+     1
+     1
+     1
+     1
+     1
+
+First few normalized feature vectors:
+    1.1700    1.2396    1.1765    1.1766    1.1362
+    0.4359    0.3068    0.4255    0.3922    0.4869
+   -0.5277   -0.4787   -0.5257   -0.4445   -0.5333
+   -1.0783   -1.0678   -1.0763   -1.1243   -1.0898
+
+Number of training examples: 105
+Number of testing examples: 45
+Size of trainInputs: 4 x 105
+Size of trainTargets: 1 x 105
+Perceptron training completed.
+First few test outputs (predicted vs actual):
+     1     1     1     1     1
+     1     1     1     1     1
+
+Perceptron accuracy on test data: 100%

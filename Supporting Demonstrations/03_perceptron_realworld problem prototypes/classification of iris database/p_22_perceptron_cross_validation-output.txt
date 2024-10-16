@@ -1,0 +1,8 @@
+>> p_22_perceptron_cross_validation
+Fold 1 Accuracy: 100%
+Fold 2 Accuracy: 100%
+Fold 3 Accuracy: 100%
+Fold 4 Accuracy: 100%
+Fold 5 Accuracy: 100%
+Mean Accuracy across 5-fold cross-validation: 100%
+>> 
