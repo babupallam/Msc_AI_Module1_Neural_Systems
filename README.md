@@ -25,5 +25,29 @@ Lecture 03:
 Lecture 04:
 
 - Feed forward neural network
-- design issues and challenges
-- 
+- RDP implementation using MATLAB
+
+  Lecture 05:
+    - Topology and Connectivity of Neural Networks (NN)
+      - Types of Neural Network Connectivity
+      - Topological Structures of Neural Networks
+      - Benefits and Drawbacks of Full vs. Partial Connectivity
+    - Methods for Adding/Deleting Connections in Neural Networks
+    - Design of the Training Set for Neural Networks
+    - Scaling Inputs/Outputs in Neural Networks
+    - Handling Outliers and Data Distribution in Neural Networks
+    - Training Neural Networks: Learning Rate, Momentum, Avoiding Local Minima, and Stopping Criteria
+    - Demosntration of the codes
+ 
+  Lecture 06:
+    - Designing an Approach to Solve a Problem Using Neural Networks
+    - Applications of Neural Networks with Benchmark Databases
+
+  Lecture 07:
+    - Unsupervised learnig
+    - Self Organizing Maps
+    - Demonstration codes in MATLAB
+ 
+    - 
+
+
