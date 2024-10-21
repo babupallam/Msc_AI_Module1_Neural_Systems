@@ -44,10 +44,10 @@ Lecture 04:
     - Applications of Neural Networks with Benchmark Databases
 
   Lecture 07:
-    - Unsupervised learnig
-    - Self Organizing Maps
-    - Demonstration codes in MATLAB
- 
-    - 
+    - Section 1: Introduction and Theoretical Background
+    - Section 2: Self-Organizing Maps and Algorithm
+    - Section 3: Visualization, Application, and Alternatives
+    - Section 4: Practical Application of SOM and Future Directions
+    - MATLAB LabWorks (Codes +)
 
 
