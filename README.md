@@ -1,6 +1,8 @@
 # MSc AI Neural Network Module Repository
 
 This repository contains course materials, implementations, and research notes based on the **Neural Networks module** of the **MSc Artificial Intelligence program at De Montfort University, Leicester**.
+
+
 ---
 
 ## Repository Structure
