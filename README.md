@@ -1,9 +1,6 @@
 # MSc AI Neural Network Module Repository
 
-This repository contains course materials, implementations, and research notes based on the **Neural Networks module** of the **MSc Artificial Intelligence program at De Montfort University, Leicester**. The module is coordinated by **Dr. David Elizondo**, and this repository reflects his research and teaching, as well as practical implementations in MATLAB.
-
-For detailed insights into Dr. Elizondo's research, visit his [Google Scholar Profile](https://scholar.google.co.in/citations?hl=en&user=8y5ln3QAAAAJ).
-
+This repository contains course materials, implementations, and research notes based on the **Neural Networks module** of the **MSc Artificial Intelligence program at De Montfort University, Leicester**.
 ---
 
 ## Repository Structure
